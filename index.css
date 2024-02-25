@@ -20,7 +20,6 @@ header {
     justify-content: space-between;
     gap: 10px;
     align-items: center;
-    margin-left: 50px;
 }
 .links-container a:hover {
     text-decoration: underline;
@@ -86,7 +85,7 @@ header {
     margin-top: 10px;
 }
 .li-container a {
-    color: green;
+    color: #84ba64;
     text-decoration: none;
 }
 .li-container :nth-child(2) {
@@ -122,6 +121,7 @@ span {
 footer {
     display: flex;
     flex-direction: column;
+    align-items: center;
     position: absolute;
     bottom: 0;
     background-color: #233056;
@@ -133,13 +133,23 @@ footer {
     justify-content: center;
     align-items: center;
     list-style: none;
-    gap: 30px;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 15px;
 }
 footer p {
     color: white;
+    width: 50%;
+    margin-top: 30px;
+    font-size: 14px;
 }
 footer a {
     text-decoration: none;
+    color: turquoise;
+}
+footer a:hover {
+    color: white;
+    text-decoration: underline;
 }
 footer li a {
     color: grey;
