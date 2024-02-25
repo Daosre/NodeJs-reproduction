@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -20,12 +22,13 @@ header {
     justify-content: space-between;
     gap: 10px;
     align-items: center;
+    margin-right: 50px;
 }
 .links-container a:hover {
     text-decoration: underline;
 }
 .links-container a {
-    color: grey;
+    color: #ccc;
     text-decoration: none;
     font-size: 13px;
     border-right: 1px solid grey;
@@ -145,12 +148,12 @@ footer p {
 }
 footer a {
     text-decoration: none;
-    color: turquoise;
+    color: #add8e6;
 }
 footer a:hover {
     color: white;
     text-decoration: underline;
 }
 footer li a {
-    color: grey;
+    color: #add8e6;
 }
