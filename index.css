@@ -81,8 +81,8 @@ header {
     color: white;
     display: flex;
     justify-content: center;
-    gap: 20px;
     list-style: none;
+    gap: 15px;
     margin-top: 10px;
 }
 .li-container a {
@@ -92,12 +92,12 @@ header {
 .li-container :nth-child(2) {
     border-right: 1px solid grey;
     border-left: 1px solid grey;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 .li-container :nth-child(5) {
     border-right: 1px solid grey;
     border-left: 1px solid grey;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 .li-container a:hover {
     color: white;
@@ -118,4 +118,29 @@ span {
     cursor: pointer;
     background-color: green;
     border-radius: 5px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    background-color: #233056;
+    text-align: center;
+    height: 130px;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+footer p {
+    color: white;
+}
+footer a {
+    text-decoration: none;
+}
+footer li a {
+    color: grey;
 }
